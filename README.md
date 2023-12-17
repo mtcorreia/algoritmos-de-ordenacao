@@ -1,5 +1,5 @@
 # Algoritmos de Ordenação - Python.
-<b>Nome do Projeto:</b> --- <br/>
+<b>Nome do Projeto:</b> algoritomos-de-ordenacao<br/>
 <b>Descrição Resumida:</b> Um estudo dirigido e produzido para o aprofundamento nos <b>Algoritmos de Ordenação</b> na linguagem Python.
 
 ## Tecnologias Usadas
@@ -15,6 +15,5 @@
 2. Compare o segundo e o terceiro elemento para verificar qual é o maior e classifique-os em ordem crescente.
 3. Compare o terceiro e o quarto elemento para verificar qual é o maior e classifique-os em ordem crescente.
 4. Compare o quarto e o quinto elemento para verificar qual é o maior e classifique-os em ordem crescente.
-OBS: Repita as etapas 1–4 até que não sejam necessárias mais trocas.
 
-<b>Exemplo:</b>
+<b>OBS</b>: Repita as etapas 1–4 até que não sejam necessárias mais trocas.
