@@ -25,14 +25,14 @@
 <b>Definição:</b> A ordenação por seleção, ou <b>Selection Sort</b>, é um algoritmo de ordenação baseado em se passar sempre o menor valor do vetor para a primeira posição, depois o de segundo menor valor para a segunda posição, e assim é feito sucessivamente com os j - 1 elementos restantes, até os últimos dois elementos.
 
 <b>Funcionamento:</b>
-1. Considere o seguinte exemplo de lista.
+1. Considere o seguinte exemplo de lista.</br>
 <i>lista = [9, 7, 8, 1, 2, 0, 4].</i>
 
-2. O primeiro laço o índice inicial é 0. Percorre-se todo o vetor até achar o menor elemento, neste caso o número zero. O zero passa para a posição inicial do vetor que na primeira iteração do laço é 0.
+2. O primeiro laço o índice inicial é 0. Percorre-se todo o vetor até achar o menor elemento, neste caso o número zero. O zero passa para a posição inicial do vetor que na primeira iteração do laço é 0.</br>
 <i>lista = [0, 7, 8, 1, 2, 9, 4]</i>
 
-3. Ao fim do laço interno, o laço externo incrementa uma unidade, agora a posição inicial da lista passa a ser 1, pois o zero já se encontra no lugar dele, não é preciso mais fazer verificações pois ele é o menor elemento desta lista. Agora o processo se repete, buscando o segundo menor elemento, neste caso o um.
+3. Ao fim do laço interno, o laço externo incrementa uma unidade, agora a posição inicial da lista passa a ser 1, pois o zero já se encontra no lugar dele, não é preciso mais fazer verificações pois ele é o menor elemento desta lista. Agora o processo se repete, buscando o segundo menor elemento, neste caso o um.</br>
 <i>lista = [0, 1, 8, 7, 2, 9, 4]</i>
 
-4. Consequentemente o terceiro menor, quarto menor e assim sucessivamente, até a lista está devidamente ordenado.
+4. Consequentemente o terceiro menor, quarto menor e assim sucessivamente, até a lista está devidamente ordenado.</br>
 <i>lista = [0, 1, 2, 4, 7, 8, 9]</i>
